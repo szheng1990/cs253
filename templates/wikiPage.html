@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{pagename}}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        function userStatus() {
+            //alert('ok');
+            var userstatus = document.getElementById("user").firstChild.nodeValue;
+            if (userstatus == "yes"){
+                document.getElementById("user").innerHTML = 
+                "<a href='../_edit/{{pagename}}'>edit</a> | {{username}}(<a href='../logout'>logout</a>)";
+            }else {
+                document.getElementById("user").innerHTML =
+                        "<a href='../login'>login</a> | <a href='../signup'>signup</a>";
+            }
+        }
+        window.onload = userStatus;
+    </script>
+</head>
+<body>
+
+{{message}}
+
+<div id="user">{{status}}</div>
+
+</body>
+

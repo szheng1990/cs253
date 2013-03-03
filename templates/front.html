@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<title>Splash</title>
+  </head>
+
+  <body>
+  	<h1>Blogs</h1>
+
+  	<hr>
+
+  	{% for entry in blogs %}
+  	<div>
+  	<div class="subject">{{entry.subject}}</div>
+    <hr>
+    <pre class="content">{{entry.content}}</pre>
+    </div>
+    {% endfor %}
+
+    <a href="../blog/newpost">create new blog</a>
+    <br>
+    <a href="../blog/reset">Delete Blogs</a>
+
+    <div><i>{{query_info}}</i></div>
+
+</body>
+
+

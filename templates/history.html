@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  	<title>History</title>
+  </head>
+
+  <body>
+  	<h1>Edit History</h1>
+
+  	<hr>
+
+  	{% for page in pages %}
+    <div>
+  	{{page.content}}
+    &nbsp;&nbsp;
+    {{page.created}}
+    &nbsp;&nbsp;
+    <a href="../_edit{{pagename}}">edit<a>
+    </div>
+    {% endfor %}
+
+</body>
+</html>
