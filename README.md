@@ -1,6 +1,6 @@
-<h1>Draft Final Project for CS253: Web Application Engineering on <a href="https://www.udacity.com/">Udacity</a></h1>
+<h3>Draft Final Project for CS253: Web Application Engineering on <a href="https://www.udacity.com/course/cs253">Udacity</a></h3>
 
-<div><h3><a href="https://docs.google.com/file/d/0B1UaQhioqJ5EVFBQSzlpVkM4Yjg/edit?usp=sharing">Signed Certificate of Completion</a></h3>
+<div><h4>Signed Certificate of Complete is located <a href="https://docs.google.com/file/d/0B1UaQhioqJ5EVFBQSzlpVkM4Yjg/edit?usp=sharing">here</a></h4>
 Grade: Highest Distinction
 </div>
 
